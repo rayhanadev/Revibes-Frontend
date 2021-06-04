@@ -1,0 +1,32 @@
+{
+  "name": "revibes",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --ext .js,.jsx --c eslint.config.js",
+    "lint:fix": "eslint . --ext .js,.jsx --c eslint.config.js --fix"
+  },
+  "dependencies": {
+    "@mdx-js/loader": "^1.6.22",
+    "@mdx-js/react": "^1.6.22",
+    "@next/mdx": "^10.2.3",
+    "next": "^10.2.3",
+    "next-themes": "0.0.14",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "eslint": "^7.27.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "postcss": "^8.3.0",
+    "tailwindcss": "^2.1.4"
+  }
+}
